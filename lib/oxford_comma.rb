@@ -3,5 +3,5 @@ def oxford_comma(array)
   array.each do |item|
     output << item
   end
-  output
+  p output
 end
