@@ -8,5 +8,5 @@ def oxford_comma(array)
     end
     output << "and #{array[-1]}"
   end
-  output
+  p output
 end
