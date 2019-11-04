@@ -1,8 +1,7 @@
 def oxford_comma(array)
   output = ""
-  if array.length == 1
-    array.join
-  elsif array.length == 2
-    array.join(" and ")
+  array.each do |item|
+    output << item
   end
+  output
 end
