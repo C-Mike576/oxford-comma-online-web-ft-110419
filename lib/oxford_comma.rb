@@ -4,10 +4,9 @@ def oxford_comma(array)
    output = array.join
   else
     array.each do |item|
-      output << "#{item}, " unless item == array[-1] do
-        output << "and #{array[-1]}"
-      end
+      output << "#{item}, " unless item == array[-1]
     end
+    output << array[-1]
   end
   output
 end
