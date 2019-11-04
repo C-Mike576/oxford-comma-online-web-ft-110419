@@ -4,5 +4,5 @@ def oxford_comma(array)
     array.join
   else
     array.each do |item|
-    output << "#{item}, " unless array.
+    output << "#{item}, " unless array.rindex
 end
