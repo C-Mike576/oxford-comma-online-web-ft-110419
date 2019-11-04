@@ -1,7 +1,5 @@
 def oxford_comma(array)
   output = ""
-  array.each do |item|
-    output << ", #{item}"
+  array.join(", ")
   end
-  p output
 end
