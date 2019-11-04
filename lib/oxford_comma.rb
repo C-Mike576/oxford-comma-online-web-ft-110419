@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.each do |item|
       output << "#{item}, " unless item == array[-1]
     end
-    output << array[-1]
+    output << "and #{array[-1]}"
   end
   output
 end
